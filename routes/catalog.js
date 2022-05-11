@@ -3,10 +3,6 @@ var router = express.Router();
 
 var bookController = require("../controllers/bookController")
 
-// retrive all catalogs
-router.get("/catalogs", function(req,res,next){
-    res.send("Home Of Catalogs")
-  })
   
   
  
@@ -15,6 +11,9 @@ router.get("/catalogs", function(req,res,next){
 //     res.send(`Get the ${p} in catalog`)
 //   })
 
+router.get("/", function(req,res,next){
+  res.send("Home of Cat")
+})
 
 /**
  * Retrieve all the books
@@ -59,3 +58,5 @@ router.get("/catalogs", function(req,res,next){
     const pID = req.params.id
     res.send(`Get the ${p} with id : ${pID} in catalog`)
   })
+
+  module.exports = router;

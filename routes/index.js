@@ -2,6 +2,13 @@ var express = require('express');
 var router = express.Router();
 
 
+// router.get("/", function(req,res,next){
+//   res.redirect
+// })
+// retrive all catalogs
+router.get("/catalogs", function(req,res,next){
+  res.send("Home Of Catalogs")
+})
 
 /* GET home page. */
 router.get('/rob', function(req, res, next) {
@@ -22,7 +29,7 @@ router.get('/williams', function(req, res, next) {
   res.send(a)
 });
 router.get('/palour', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Kitchen' });
 });
 
 router.get("/customers", function( req,res, next) {
