@@ -1,6 +1,7 @@
 let store_items = [
   {
     id: 1,
+    active : true,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     price: 109.95,
     description:
@@ -14,6 +15,7 @@ let store_items = [
   },
   {
     id: 2,
+    active : true,
     title: "Mens Casual Premium Slim Fit T-Shirts ",
     price: 22.3,
     description:
@@ -28,6 +30,7 @@ let store_items = [
   },
   {
     id: 3,
+    active : true,
     title: "Mens Cotton Jacket",
     price: 55.99,
     description:
@@ -41,6 +44,7 @@ let store_items = [
   },
   {
     id: 4,
+    active : true,
     title: "Mens Casual Slim Fit",
     price: 15.99,
     description:
@@ -54,6 +58,7 @@ let store_items = [
   },
   {
     id: 5,
+    active : true,
     title:
       "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
     price: 695,
