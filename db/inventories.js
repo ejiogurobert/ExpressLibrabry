@@ -73,6 +73,7 @@ let store_items = [
   },
   {
     id: 6,
+    active : true,
     title: "Solid Gold Petite Micropave ",
     price: 168,
     description:
@@ -86,6 +87,7 @@ let store_items = [
   },
   {
     id: 7,
+    active : true,
     title: "White Gold Plated Princess",
     price: 9.99,
     description:
@@ -99,6 +101,7 @@ let store_items = [
   },
   {
     id: 8,
+    active : true,
     title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
     price: 10.99,
     description:
@@ -112,6 +115,7 @@ let store_items = [
   },
   {
     id: 9,
+    active : true,
     title: "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
     price: 64,
     description:
@@ -125,6 +129,7 @@ let store_items = [
   },
   {
     id: 10,
+    active : true,
     title: "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
     price: 109,
     description:
@@ -138,6 +143,7 @@ let store_items = [
   },
   {
     id: 11,
+    active : true,
     title:
       "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
     price: 109,
@@ -152,6 +158,7 @@ let store_items = [
   },
   {
     id: 12,
+    active : true,
     title:
       "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
     price: 114,
@@ -166,6 +173,7 @@ let store_items = [
   },
   {
     id: 13,
+    active : true,
     title: "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
     price: 599,
     description:
@@ -179,6 +187,7 @@ let store_items = [
   },
   {
     id: 14,
+    active : true,
     title:
       "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
     price: 999.99,
@@ -193,6 +202,7 @@ let store_items = [
   },
   {
     id: 15,
+    active : true,
     title: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
     price: 56.99,
     description:
@@ -206,6 +216,7 @@ let store_items = [
   },
   {
     id: 16,
+    active : true,
     title:
       "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
     price: 29.95,
@@ -220,6 +231,7 @@ let store_items = [
   },
   {
     id: 17,
+    active : true,
     title: "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
     price: 39.99,
     description:
@@ -233,6 +245,7 @@ let store_items = [
   },
   {
     id: 18,
+    active : true,
     title: "MBJ Women's Solid Short Sleeve Boat Neck V ",
     price: 9.85,
     description:
@@ -246,6 +259,7 @@ let store_items = [
   },
   {
     id: 19,
+    active : true,
     title: "Opna Women's Short Sleeve Moisture",
     price: 7.95,
     description:
@@ -259,6 +273,7 @@ let store_items = [
   },
   {
     id: 20,
+    active : true,
     title: "DANVOUY Womens T Shirt Casual Cotton Short",
     price: 12.99,
     description:
