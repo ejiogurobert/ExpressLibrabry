@@ -1,0 +1,2 @@
+
+var inventories = re
