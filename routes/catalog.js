@@ -52,3 +52,11 @@ router.get("/", function(req,res,next){
     const pID = req.params.id
     res.send(`Delete the ${p} with id : ${pID} in catalog`)
   })
+  // retrive all objects (books, genres) in catalogs 
+  router.get("/catalogs/:object/:id", function(req,res,next){
+    const p = req.params.object
+    const pID = req.params.id
+    res.send(`Get the ${p} with id : ${pID} in catalog`)
+  })
+
+  module.exports = router;

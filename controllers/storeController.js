@@ -33,10 +33,15 @@ exports.removeItem = function(req, res, next){
     return res.status(200).render("remove", {success: true, product: remainingProducts})
 }
 
-
-
-
-
+  
+  exports.updateProducts = function (req, res, next) {
+    const priceIncrement = req.query.increment;
+    const allProducts = storeModel
+      .index()
+      .map((product) => product.price += Number(priceIncrement))
+  
+    res.send(allProducts);
+  };
 
 
 
