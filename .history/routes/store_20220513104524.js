@@ -5,7 +5,7 @@ var router = express.Router();
 let storeController = require("../controllers/storeController")
 
 router.get("/", storeController.index)
-
-router.update("/", storeController.updateProducts);
-
+router.update("/users/", function (req, res, next) {
+  res.send("respond with a resource");
+});
 module.exports = router;

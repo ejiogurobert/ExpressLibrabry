@@ -10,7 +10,6 @@ exports.index = function (req, res, next) {
 };
 
 exports.updateProducts = function (req, res, next) {
-    // const id = req.params.id
+    const id = req.params.id
   const allProducts = storeModel.index().filter(products);
-  res.send(allProducts)
 };
