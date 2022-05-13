@@ -1,5 +1,9 @@
-var storeData = require("../db/inventories")
+const store_items = require("../db/inventories");
 
-exports.index = function(){
-    return storeData
-}
+/**
+ * return all active products
+ * @returns
+ */
+exports.index = function () {
+  return store_items;
+};
