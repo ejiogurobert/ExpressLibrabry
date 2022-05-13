@@ -27,5 +27,5 @@ Rasgan :  8
 Charles : 9
 Rob : 6
 Smit :  3
-Williams : 
-Zinny 
+Williams : 7 
+Zinny : 
