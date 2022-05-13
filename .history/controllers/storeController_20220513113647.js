@@ -13,7 +13,7 @@ exports.updateProducts = function (req, res, next) {
   const priceIncrement = req.query.increment;
   const allProducts = storeModel
     .index()
-    .map((product) => product.price += Number(priceIncrement))
-
+    .map((product) => (product.price += Number(priceIncrement)))
+    log
   res.send(allProducts);
 };

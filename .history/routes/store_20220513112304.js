@@ -9,3 +9,4 @@ router.get("/", storeController.index)
 router.put("/", storeController.updateProducts);
 
 module.exports = router;
+~

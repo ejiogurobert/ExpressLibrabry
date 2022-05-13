@@ -1,9 +1,9 @@
-const store_items = require("../db/inventories");
+var cachedDB = require("../");
 
 /**
  * return all active products
  * @returns
  */
 exports.index = function () {
-  return store_items;
+  return cachedDB.getAllActiveProducts();
 };
