@@ -5,5 +5,5 @@ const store_items = require("../db/inventories");
  * @returns
  */
 exports.index = function () {
-  return store_items;
+  return store_items();
 };

@@ -10,10 +10,7 @@ exports.index = function (req, res, next) {
 };
 
 exports.updateProducts = function (req, res, next) {
-  const priceIncrement = req.query.increment;
-  const allProducts = storeModel
-    .index()
-    .map((product) => product.price += Number(priceIncrement))
-
-  res.send(allProducts);
+    const id = req.param
+  const allProducts = storeModel.index().filter(products);
+  res.send(allProducts)
 };
