@@ -1,4 +1,5 @@
 var storeModel = require("../models/storeModel")
+var allProducts = require("../db/inventories");
 
 exports.index = function( req, res, next) {
     // res.send("This is all we have in store")
@@ -33,8 +34,8 @@ exports.removeItem = function(req, res, next){
     return res.status(200).render("remove", {success: true, product: remainingProducts})
 }
 
-  
-  exports.updateProducts = function (req, res, next) {
+
+exports.updateProducts = function (req, res, next) {
     const priceIncrement = req.query.increment;
     const allProducts = storeModel
       .index()
@@ -44,28 +45,8 @@ exports.removeItem = function(req, res, next){
   };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+exports.getAnItem = function (req, res) {
+    const id = req.params.id;
+    const newItem = allProducts.filter((product) => product.id === Number(id))
+    return res.status(200).render('getitem', {success: true, item: newItem})
+}

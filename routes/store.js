@@ -9,4 +9,7 @@ router.delete("/:id/", storeController.removeItem)
 
 router.put("/", storeController.updateProducts);
 
+router.get("/:id", storeController.getAnItem)
+
 module.exports = router;
+
