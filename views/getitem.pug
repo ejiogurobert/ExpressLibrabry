@@ -1,0 +1,15 @@
+extend layout
+
+block content
+    h1 success 
+
+    ol 
+        each product in item
+            li
+                div 
+                    p= product.title 
+                    button= product.price
+                    img(
+                        src= product.image
+                        width= 200
+                    )
