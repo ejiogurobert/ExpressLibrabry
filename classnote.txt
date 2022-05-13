@@ -1,0 +1,31 @@
+How To Build APIs ( web apps )
+
+bin 
+    // configuration
+    // password, 
+public 
+    // static file ( logo, favicon, svg,font, typography, )
+routes
+    // moving around
+views
+    // what the user can see
+app.js
+    // entry point to enter 
+
+    1) npm install
+    2) nodemon 
+
+client ( browser ) => middleware => routes => handle the request ( mvc ) => views
+
+browser -> route -> process data (title) => views ( show the data )
+
+localhost://9977/customers/6
+
+http://localhost:9977/customers/search?name=%22ras%22&q=job&oq=job&aqs=chrome..69i57j35i39j0i433i512j0i131i433j46i131i175i199i433i512j0i131i433i512j46i175i199i512j0i131i433i512l2.2471j0j7&sourceid=chrome&ie=UTF-8
+
+Rasgan :  8
+Charles : 9
+Rob : 6
+Smit :  3
+Williams : 
+Zinny 

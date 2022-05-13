@@ -1,0 +1,15 @@
+extend layout
+
+block content
+    h1 Zinny
+
+    ol 
+        each product in p 
+            li
+                div 
+                    p= product.title 
+                    button= product.price
+                    img(
+                        src= product.image
+                        width= 200
+                    )
